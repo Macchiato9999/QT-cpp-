@@ -1,11 +1,11 @@
-#include "widget.h"
+#include "gamehall.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Widget w;
+    GameHall w;
     w.show();
     return a.exec();
 }
